@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"> </div>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!-- Sobre Mim -->
+<section id="sobre" class="Mim">
+    <div class="container">
+        <div class="Mim-content">
+            <div class="Mim-text">
+                <h1>Olá, eu sou <span class="highlight">Pedro Afonso</span></h1>
+                <p class="subtitle">Desenvolvedor Web & Designer</p>
+                <p>Sou um desenvolvedor trabalho com tecnologia e inovação. Atualmente cursando Ciências da Computação, busco constantemente aprender novas tecnologias e criar soluções digitais que façam a diferença. Tenho foco em consistência e qualidade.</p>
+                <div class="Mim-info">
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Estudante de CC</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>ARACAJU/SE</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>pedro.federico@souunit.com.br</span>
+                    </div>
+                </div>
+                <a href="#contato" class="btn">Entre em Contato</a>
+            </div>
+            <div class="Mim-image">
+                <img src="assets/foto_perfil.png" alt="Minha Foto" class="profile-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfólio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Meu Portfólio</h2>
+            <p class="section-subtitle">Projetos desenvolvidos durante o curso</p>
+            
+            <div class="carrossel-cards">
+                <div class="carrossel-container">
+                    <!-- Projeto 1 -->
+                    <div class="card-item active">
+                        <div class="card-image">
+                            <img src="assets/projeto1_carros.png" alt="Projeto 1 - Carros">
+                        </div>
+                        <div class="card-content">
+                            <h3>Projeto 1 - Controle de Carros</h3>
+                            <p>Um seletor de carros interativo com controles de aceleração e desaceleração.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <a href="Projetos/Projeto1/index.html" class="card-btn" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 2 -->
+                    <div class="card-item next">
+                        <div class="card-image">
+                            <img src="assets/projeto2_calculadora.png" alt="Projeto 2 - Calculadora">
+                        </div>
+                        <div class="card-content">
+                            <h3>Projeto 2 - Calculadora</h3>
+                            <p>Uma calculadora funcional com design moderno e minimalista.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <a href="Projetos/Projeto2/index.html" class="card-btn" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 3 -->
+                    <div class="card-item far-next">
+                        <div class="card-image">
+                            <img src="assets/projeto3_lampada.png" alt="Projeto 3 - Lâmpada">
+                        </div>
+                        <div class="card-content">
+                            <h3>Projeto 3 - Lâmpada On/Off</h3>
+                            <p>Um projeto simples que permite ligar e desligar uma lâmpada com um clique.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <a href="Projetos/Projeto3/index.html" class="card-btn" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="controls-container">
+                    <button class="carrossel-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="indicators">
+                        <div class="indicator active"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                    </div>
+                    
+                    <button class="carrossel-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <p class="section-subtitle">Tecnologias e ferramentas que domino</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML5</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>CSS3</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Node.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Python</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Ferramentas</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Git & GitHub</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Figma</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Vamos conversar sobre seu projeto</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Localização</h3>
+                            <p>ARACAJU, SE</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>pedro.federico@souunit.com.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Telefone</h3>
+                            <p>(75) 9 98848687</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Mapa do Google Maps -->
+                    <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.397733754789!2d-37.060577200000004!3d-10.9699233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab1007b37d93f%3A0x2d93b2ea50308a70!2sCondom%C3%ADnio%20Villa%20Maestria!5e1!3m2!1spt-BR!2sbr!4v1763319008200!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="200" 
+                        style="border:0; border-radius: 8px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <span class="error-message" id="nomeError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <span class="error-message" id="mensagemError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn submit-btn">
+                            <span class="btn-text">Enviar Mensagem</span>
+                            <div class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">Meu Portfólio</div>
+                    <p>Desenvolvido com Pedro Afonso</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pedro Afonso. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
